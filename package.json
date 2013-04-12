@@ -1,0 +1,11 @@
+{
+ "name":"af-node-base",
+  "version":"0.0.1",
+  "dependencies":{
+      "express":"",
+      "mongodb":"",
+      "superagent":"",
+      "oauth":"",
+      "superagent-oauth":""
+  }
+}

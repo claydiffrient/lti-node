@@ -1,0 +1,17 @@
+--- 
+applications: 
+  .: 
+    name: lti-test
+    mem: 64M
+    infra: rs
+    framework: 
+      info: 
+        mem: 64M
+        description: Node.js Application
+        exec: 
+      name: node
+    url: ${name}.${target-base}
+    services: 
+      lti-test: 
+        type: mongodb
+    instances: 1
